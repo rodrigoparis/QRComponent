@@ -1,0 +1,30 @@
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+  /* Define color variables */
+:root {
+  --color-white: hsl(0, 0%, 100%);
+  --color-light-gray: hsl(212, 45%, 89%);
+  --color-grayish-blue: hsl(220, 15%, 55%);
+  --color-dark-blue: hsl(218, 44%, 22%);
+}
+  /* Simple CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set default font settings */
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: var( --color-light-gray);
+  color: hsl(218, 44%, 22%); /* Dark blue text color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+

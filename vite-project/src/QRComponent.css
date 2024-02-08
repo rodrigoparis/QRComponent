@@ -1,0 +1,40 @@
+/* QRComponent.css */
+.qr-container {
+  background-color: var(--color-white);
+  border-radius: 20px;
+  padding: 15px;
+  text-align: center;
+  margin: 25px auto; /* Ensure it's centered horizontally */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box; /* Contain padding and border within the width */
+}
+
+.qr-image {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.qr-info {
+  padding: 20px;
+  padding-bottom: 40px;
+}
+
+.qr-info h1 {
+  color: var(--color-dark-blue);
+  margin-bottom: 10px;
+  font-size: 1.6em; /* Adjust based on design */
+}
+
+.qr-info p {
+  color: var(--color-grayish-blue);
+  line-height: 1.6; /* Improved readability */
+  font-size: 1em; /* Adjust based on design */
+}
+
+@media (min-width: 1440px) {
+  .qr-container {
+    padding: 20px;
+    max-width: 400px;
+  }
+}
